@@ -1,0 +1,13 @@
+spring: 
+  data:
+    mongodb:
+      database: oauthdetail
+      host: localhost
+      port: 27017
+      
+security:
+  basic:
+    enabled: false
+management:
+  security:
+    enabled: false
